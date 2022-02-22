@@ -1,0 +1,10 @@
+spring:
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    port: 587
+    username: simobkr.sb@gmail.com #source email
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+    password: #add here your password
